@@ -1,0 +1,7 @@
+x <- c(20, 65, 15, 50)
+print(x)
+labels <- c('India', 'America', 'Sri Lanka', 'Nepal')
+print(labels)
+png(file = "Country.jpg")
+pie(x,labels)
+dev.off()
